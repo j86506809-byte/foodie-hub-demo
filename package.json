@@ -3,11 +3,11 @@
   "version": "1.0.0",
   "private": true,
   "dependencies": {
-    "react": "^18.2.0",
-    "react-dom": "^18.2.0",
-    "lucide-react": "^0.300.0"
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "lucide-react": "^0.400.0"
   },
   "scripts": {
-    "build": "mkdir -p out && cp page.js out/index.html || true"
+    "build": "mkdir -p dist && cp page.js dist/index.html || true"
   }
 }
